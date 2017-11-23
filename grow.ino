@@ -1,7 +1,3 @@
-//DHT, Motion and OLED sketch for "The Kube" sensor
-
-//by bkpsu, https://www.thingiverse.com/thing:2539897
-
 #define MQTT_SOCKET_TIMEOUT 120
 
 /************ HARDWARE CONFIG (CHANGE THESE FOR YOUR SENSOR SETUP) ******************/
@@ -10,7 +6,7 @@
 #define CELSIUS //Uncomment if you want temperature displayed in Celsius
 //#define DEEP_SLEEP //Uncomment if you want sensor to sleep after every update (Does NOT work with MOTION_ON or LED_ON which require constant uptime)
 #define FLIP_SCREEN //Uncomment if mounting to wall with USB connector on top
-#define MOTION_ON //Uncomment if using motion sensor
+//#define MOTION_ON //Uncomment if using motion sensor
 //#define OLED_MOTION //Uncomment if you want screen to turn on only if motion is detected
 //#define LED_ON //Uncomment if using as LED controller
 //#define PRESS_ON //Uncomment if using as Pressure monitor
